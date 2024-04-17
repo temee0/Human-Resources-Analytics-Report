@@ -32,6 +32,7 @@ Through this analysis, we seek to make informed decisions regarding promotions a
 ## Modelling
 A one to one relation was automatically derived from these dataset and has been left as it is 
 
+![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/HR%20data%20model.jpg)
 
 ## Visualization
 This report comprises of 3 pages 
@@ -41,7 +42,7 @@ This report comprises of 3 pages
       
 You can interact with the report [here]
 
-### Home Page
+## Home Page
 
 - The number of employees are 1470
 - The number of Female employees are 588.
