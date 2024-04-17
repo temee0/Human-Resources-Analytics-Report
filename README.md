@@ -1,5 +1,5 @@
 # Human Resources Analysis Report
-
+![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/intro%20page%201.png)
 
 ## Introduction
 This HR analytics project focuses on analyzing Employee data within a fictional company. Our goal is to uncover insights that answer key questions and guide data-driven decisions.  
