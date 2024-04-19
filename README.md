@@ -173,3 +173,6 @@ Data was efficiently cleaned and transformed using power query and the DAX langu
  Average service year = AVERAGE('HR Analytics Data'[YearsAtCompany])
   </kbd>     
 
+
+-----
+![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/67d76f4b-2af3-48a1-956d-c20fb10967a6.jpeg)
