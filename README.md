@@ -148,17 +148,17 @@ Data was efficiently cleaned and transformed using power query and the DAX langy
   </kbd>  
 - Employees' performance rating was grouped as high or low using the IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Performance Rating = if('HR Analytics Data'[PerformanceRating]=3,"high rated","low rated")
- </kbd>  
+ </kbd>
 - I created a metric and a calculated column to identify employees to be retrenched using the DAX IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Retreanchment Status = if('HR Analytics Data'[YearsAtCompany]>17,"will be retreanched","on service")
-  </kbd>  
+  </kbd>         
 - I createed a metric and a calculated column to identify employees that are due for promotion using the DAX IF function <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Due For Promotion = if('HR Analytics Data'[YearsSinceLastPromotion]>9,"Due For Promotion","Not Due")
-  </kbd> 
+  </kbd>    
 - I calculated the Average montly income uding the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average Monthly Income = AVERAGE('HR Analytics Data'[MonthlyIncome])
-  </kbd>  
+  </kbd>     
 - I calculated the Average Service years using the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average service year = AVERAGE('HR Analytics Data'[YearsAtCompany])
-  </kbd>
-- 
+  </kbd>     
+
