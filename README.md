@@ -89,9 +89,9 @@ You can interact with the report [here]
   **Low**: 147 Employees  
   **Medium**: 127 Employees  
 - Number of distinct job roles within the department: 3.
-- 128 employees are working overtime.
-
-  ### Human Resources Department
+- 128 employees are working overtime.  
+  
+### Human Resources Department
 - The total count of employees is 63.
 - The number of employees to be retrenched are 7.
 - 2 employees are due for promotion.
@@ -119,12 +119,44 @@ Employee performance ratings are notably high, with 85% of the workforce receivi
 Furthermore, 28% of employees worked outside standard working hours (overtime).
 
 ## Recommendations  
-The insight about employees' proximity to the workplace should be utilized to optimize transportation logistics and consider implementing flexible work arrangements such as remote work or flexible hours for employees who live further away. This can improve employee morale, reduce commuting stress, and enhance work-life balance.     
+The insight about employees' proximity to the workplace should be utilized and flexible work arrangements such as remote work or flexible hours for employees who live further away should be implemented. This can improve employee morale, reduce commuting stress, and enhance work-life balance.     
 
 The disparities in job satisfaction ratings should be addressed by conducting thorough assessments to identify the root causes. Implement initiatives such as regular feedback sessions, recognition programs, and opportunities for professional development to improve overall job satisfaction and retention.  
 
-The company needs to reduce its workforce by 117 employees due to financial reasons. Simultaneously, there are 72 employees who are due for promotion. it is important to promote employees alongside retrenchment to mitigate the fear and uncertainty among the remaining workforce. By promoting deserving employees, the company sends a message that there are still opportunities for growth and advancement within the organization. This helps to reassure employees about their job security and reduces anxiety about potential future layoffs. it's also very important to handle the retrenchment process with sensitivity and transparency. Provide support services such as career counseling and job placement assistance to those affected.   
+The company needs to reduce its workforce by 117 employees due to financial reasons. Simultaneously, there are 72 employees who are due for promotion. it is important to promote employees alongside retrenchment to mitigate the fear and uncertainty among the remaining workforce. By promoting deserving employees, the company sends a message that there are still opportunities for growth and advancement within the organization. This helps to reassure employees about their job security and reduces anxiety about potential future layoffs. it's also important to handle the retrenchment process with sensitivity and transparency. Provide support services such as career counseling and job placement assistance to those affected.   
 
 It is important to mitigate negative perceptions of overtime by ensuring that overtime work is fairly compensated and recognized. 
 
 It is important to recognize and celebrate the dedication of the longest-serving employee who has contributed 40 years to the company. This as an opportunity to highlight the value of employee loyalty, and ensure the transfer of knowledge within the organization.  
+
+## Data Transformation/Cleaning   
+Data was efficiently cleaned and transformed using power query and the DAX langyage. Some of the applied steps are listed below:
+- Using the power query editor to identify errors and make corrections
+- Deleting duplicate rows using the power query editor.
+- Identifying wrong data format and correcting them.
+- The total number of employees was determine using the DAX countrow function
+- Created a service year field using a calculated column,  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Service Year = COMBINEVALUES(" ",'HR Analytics Data'[YearsAtCompany],"Years")
+  </kbd>
+- Grouped employees' distance status as close, very close or very far using the Nested IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ IF('HR Analytics Data'[DistanceFromHome]>19,"Very Far",IF('HR Analytics Data'[DistanceFromHome]>9,"Close","Very Close"))
+  </kbd>
+- Group employees' job satisfaction as high, low, or medium using the Nested IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Job Satisfaction Rating = if('HR Analytics Data'[JobSatisfaction]=3,"medium",if('HR Analytics Data'[JobSatisfaction]<3,"high","low"))
+  </kbd>
+- Employees' performance rating was grouped as high or low using the IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Performance Rating = if('HR Analytics Data'[PerformanceRating]=3,"high rated","low rated")
+ </kbd>
+- I created a metric and a calculated column to identify employees to be retrenched using the DAX IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Retreanchment Status = if('HR Analytics Data'[YearsAtCompany]>17,"will be retreanched","on service")
+  </kbd>
+- I createed a metric and a calculated column to identify employees that are due for promotion using the DAX IF function <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Due For Promotion = if('HR Analytics Data'[YearsSinceLastPromotion]>9,"Due For Promotion","Not Due")
+  </kbd>
+- I calculated the Average montly income uding the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Average Monthly Income = AVERAGE('HR Analytics Data'[MonthlyIncome])
+  </kbd>
+- I calculated the Average Service years using the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+ Average service year = AVERAGE('HR Analytics Data'[YearsAtCompany])
+  </kbd>
+- 
