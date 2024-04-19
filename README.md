@@ -112,9 +112,19 @@ The total monthly income disbursed to employees amounts to $9,559,309, with an a
 
 A total of 117 employees have been identified for retrenchment, while 72 are due for promotion. The longest-serving employee has dedicated 40 years to the company. The company"s average lenght of service years is 7 years.
 
-Regarding proximity to the workplace, an impressive 85% reside within close or very close proximity to the workplace, accounting for 1241 individuals. Consequently, 229 employees live further away.  *This insight is crucial for optimizing transportation logistics and considering flexible work arrangements. Let me know if you need any further assistance*
+Regarding proximity to the workplace, an impressive 85% reside within close or very close proximity to the workplace, accounting for 1241 individuals. Consequently, 229 employees live further away.  
 
 Employee performance ratings are notably high, with 85% of the workforce receiving high ratings. However, job satisfaction rating reveal disparities, with 459 employees reporting low satisfaction, 442 reporting medium satisfaction, and 567 reporting high satisfaction.
 
 Furthermore, 28% of employees worked outside standard working hours (overtime).
 
+## Recommendations  
+The insight about employees' proximity to the workplace should be utilized to optimize transportation logistics and consider implementing flexible work arrangements such as remote work or flexible hours for employees who live further away. This can improve employee morale, reduce commuting stress, and enhance work-life balance.     
+
+The disparities in job satisfaction ratings should be addressed by conducting thorough assessments to identify the root causes. Implement initiatives such as regular feedback sessions, recognition programs, and opportunities for professional development to improve overall job satisfaction and retention.  
+
+The company needs to reduce its workforce by 117 employees due to financial reasons. Simultaneously, there are 72 employees who are due for promotion. it is important to promote employees alongside retrenchment to mitigate the fear and uncertainty among the remaining workforce. By promoting deserving employees, the company sends a message that there are still opportunities for growth and advancement within the organization. This helps to reassure employees about their job security and reduces anxiety about potential future layoffs. it's also very important to handle the retrenchment process with sensitivity and transparency. Provide support services such as career counseling and job placement assistance to those affected.   
+
+It is important to mitigate negative perceptions of overtime by ensuring that overtime work is fairly compensated and recognized. 
+
+It is important to recognize and celebrate the dedication of the longest-serving employee who has contributed 40 years to the company. This as an opportunity to highlight the value of employee loyalty, and ensure the transfer of knowledge within the organization.  
