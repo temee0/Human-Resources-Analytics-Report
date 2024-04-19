@@ -65,34 +65,43 @@ You can interact with the report [here]
 - The total count of employees is 961.
 - The number of employees to be retrenched are 74
 - 47 employees are due for promotion
-- among them, performance of 84% are high rated and 16% are low rated.
+- Breakdown of performance ratings among employees:   
+  **High rated**: 84%  
+  **Low rated**: 16% 
 - the job satisfaction levels of employee are distributed thus:  
   **High**: 366 Employees   
   **Medium**: 300 Employees  
   **Low**: 295 Employees  
-- There are 6 job roles under this department
-- 271 employees work overtime
+- Number of distinct job roles within the department: 6.
+- 271 employees are working overtime.
 
 ### Sales Department:
 - The total count of employees is 446.
 - The number of employees to be retrenched are 36.
 - 23 employees are due for promotion.
-- among them, performance of 86% are high rated and 14% are low rated.
+- Breakdown of performance ratings among employees:  
+  **High rated**: 86%   
+  **Low rated**: 14%   
 - the job satisfaction levels of employee are distributed thus:  
   **High**: 172 Employees   
   **Low**: 147 Employees  
   **Medium**: 127 Employees  
-- There are 3 job roles under this department
-- 128 employees work overtime
+- Number of distinct job roles within the department: 3.
+- 128 employees are working overtime.
 
   ### Human Resources Department
 - The total count of employees is 63.
 - The number of employees to be retrenched are 7.
 - 2 employees are due for promotion.
-- among them, performance of 86% are high rated and 14% are low rated.
-- the job satisfaction levels of employee are distributed thus:  
+- Breakdown of performance ratings among employees:  
+  **High rated**: 86%  
+  **Low rated**: 14% 
+- The job satisfaction levels of employee are distributed thus:  
   **High**: 31 Employees   
   **Low**: 17 Employees  
   **Medium**: 15 Employees  
-- There are 2 job roles under this department
-- 17 employees work overtime
+- Number of distinct job roles within the department: 2.
+- 17 employees are working overtime.
+
+## Conclusion
+
