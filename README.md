@@ -169,7 +169,7 @@ Data was efficiently cleaned and transformed using power query and the DAX langy
  Average Monthly Income = AVERAGE('HR Analytics Data'[MonthlyIncome])
   </kbd>
     
-- I calculated the Average Service years using the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+- I calculated the Average Service year using the DAX average function.  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average service year = AVERAGE('HR Analytics Data'[YearsAtCompany])
   </kbd>     
 
