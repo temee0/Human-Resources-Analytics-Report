@@ -130,7 +130,7 @@ It is important to mitigate negative perceptions of overtime by ensuring that ov
 It is important to recognize and celebrate the dedication of the longest-serving employee who has contributed 40 years to the company. This as an opportunity to highlight the value of employee loyalty, and ensure the transfer of knowledge within the organization.  
 
 ## Data Transformation/Cleaning   
-Data was efficiently cleaned and transformed using power query and the DAX langyage. Some of the applied steps are listed below:
+Data was efficiently cleaned and transformed using power query and the DAX language. Some of the applied steps are listed below:
 - Using the power query editor to identify errors and make corrections.
   
 - Deleting duplicate rows using the power query editor.
