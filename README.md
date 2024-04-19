@@ -4,19 +4,19 @@
 ## Introduction
 This HR analytics project focuses on analyzing Employee data within a fictional company. Our goal is to uncover insights that answer key questions and guide data-driven decisions.  
 
-By employing descriptive, diagnostic, and prescriptive analysis, we aim to summarize employee data, diagnose trends affecting performance and job satisfaction, and provide actionable recommendations.   
+By employing descriptive, diagnostic, and prescriptive analysis, we aim to summarize employee data, understand the work force composition, determine employee performance and job satisfaction level, and provide actionable recommendations for improvement.   
 
 Through this analysis, we seek to make informed decisions regarding promotions and retrenchments, as well as implement strategies to improve overall performance and job satisfaction among employees.
 
 **_Disclaimer_** :  _The dataset used in this analysis is sourced online and is entirely fictitious. Therefore, this report does not represent any specific company, institution, or country. Rather, it serves as a demonstration of data analysis skills, PowerBI visualization skills, and knowledge of the DAX language._
 
 ## Problem Statement
-1. employee distribution across gender, age, and departments
-2. employees job satisfaction level
-3. employee performance level
-4. total number of employees due for promotion
-5. Total number of employees to be retenched
-6. how to incentivise employees to increase job satifactions and employes perfomance
+1. Distribution of employees across gender, age groups, and departments.
+2. Evaluation of job satisfaction levels among employees.
+3. Assessment of employee performance. 
+4. Identification of employees eligible for promotion based on performance and tenure.
+5. Total number of employees to be retrenched.
+6. How to incentivise employees to increase job satifaction and employees perfomance.
 
 ## Analysis toolkit
 ### Microsoft powerBI:
@@ -30,7 +30,7 @@ Through this analysis, we seek to make informed decisions regarding promotions a
 - Tooltips
 
 ## Modelling
-A one to one relation was automatically derived from these dataset and has been left as it is 
+A one-to-one relationship has been automatically derived from these datasets and remains unchanged.
 
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/HR%20data%20model.jpg)
 
@@ -44,18 +44,20 @@ You can interact with the report [here]
 
 ## Home Page
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/home%20page.jpg)
-- The number of employees are 1470
-- The number of Female employees are 588.
-- The numebr of male employees are 882
-- The total number of empoyees to be retrenched are 117.
-- The total number of employees that are due for promootion.
-- the average service years of employees is 7.
+- There are a total of 1470 employees.
+- Among them, 588 are female and 882 are male.
+- The number of employees to be retrenched is 117.
+- 72 employees are due for promotion.
+- The average length of service for employees is 7 years.
 
 ## Action Page 
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/Action%20page.jpg)
-- The total number of emoployees that are married 673.
-- The total number of employees that are single are 470
-- The total numbr of employees that are divorced are 327
-- The average monthly income of employes is $6,403.
-- The youngest and oldest employees are  18 and 60 respectively,
-- The highes sum of monthly income is earned by employees aged 40 with an average monthly income of $7,701.
+- The total count of married employees is 673.
+- The total count of single employees is 470.
+- The total count of divorced employees is 327.
+- The average monthly income for employees amounts to $6,403.
+- The youngest and oldest employees are  18 and 60 respectively.
+- The highest sum of monthly income is earned by employees aged 40, with an average monthly income of $7,701.
+
+## Detail Page
+![]()
