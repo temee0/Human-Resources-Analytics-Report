@@ -49,9 +49,11 @@ You can interact with the report [here]
 - The number of employees to be retrenched is 117.
 - 72 employees are due for promotion.
 - The average length of service for employees is 7 years.
+- 85% of employees reside within close or very close proximity to the workplace.
 
 ## Action Page 
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/Action%20page.jpg)
+- The sum of monthly income of employees is $9,559,309.
 - The total count of married employees is 673.
 - The total count of single employees is 470.
 - The total count of divorced employees is 327.
@@ -81,7 +83,7 @@ You can interact with the report [here]
 - 23 employees are due for promotion.
 - Breakdown of performance ratings among employees:  
   **High rated**: 86%   
-  **Low rated**: 14%   
+  **Low rated**: 14% 
 - the job satisfaction levels of employee are distributed thus:  
   **High**: 172 Employees   
   **Low**: 147 Employees  
@@ -95,7 +97,7 @@ You can interact with the report [here]
 - 2 employees are due for promotion.
 - Breakdown of performance ratings among employees:  
   **High rated**: 86%  
-  **Low rated**: 14% 
+  **Low rated**: 14%
 - The job satisfaction levels of employee are distributed thus:  
   **High**: 31 Employees   
   **Low**: 17 Employees  
@@ -104,4 +106,15 @@ You can interact with the report [here]
 - 17 employees are working overtime.
 
 ## Conclusion
+The total count of employees stands at 1470, comprising 882 male employees and 588 female employees. Among them, 46% are married, 32% are single, and 22% are divorced. These individuals are distributed across three departments: Research and Development, Sales, and Human Resources, encompassing a total of 11 job roles.
+
+The total monthly income disbursed to employees amounts to $9,559,309, with an average income of $6,503.
+
+A total of 117 employees have been identified for retrenchment, while 72 are due for promotion. The longest-serving employee has dedicated 40 years to the company. The company"s average lenght of service years is 7 years.
+
+Regarding proximity to the workplace, an impressive 85% reside within close or very close proximity to the workplace, accounting for 1241 individuals. Consequently, 229 employees live further away.  *This insight is crucial for optimizing transportation logistics and considering flexible work arrangements. Let me know if you need any further assistance*
+
+Employee performance ratings are notably high, with 85% of the workforce receiving high ratings. However, job satisfaction rating reveal disparities, with 459 employees reporting low satisfaction, 442 reporting medium satisfaction, and 567 reporting high satisfaction.
+
+Furthermore, 28% of employees worked outside standard working hours (overtime).
 
