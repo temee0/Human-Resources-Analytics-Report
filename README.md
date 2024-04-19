@@ -60,4 +60,16 @@ You can interact with the report [here]
 - The highest sum of monthly income is earned by employees aged 40, with an average monthly income of $7,701.
 
 ## Detail Page
-![]()
+![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/Details%20page.jpg)
+### Research and Development Department:   
+- The total count of employees is 961.
+- The number of employees to be retrenched are 74
+- 47 employees are due for promotion
+- among them, performance of 84% are high rated and 16% are low rated.
+- the job satisfaction levels of employee are distributed thus:  
+  **High**: 366 Employees
+  **Medium**: 300 Employees
+  **Low**: 295 Employees
+- There are 6 job roles under this department
+- 271 employees work overtime
+
