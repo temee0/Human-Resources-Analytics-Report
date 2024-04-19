@@ -131,33 +131,44 @@ It is important to recognize and celebrate the dedication of the longest-serving
 
 ## Data Transformation/Cleaning   
 Data was efficiently cleaned and transformed using power query and the DAX langyage. Some of the applied steps are listed below:
-- Using the power query editor to identify errors and make corrections
+- Using the power query editor to identify errors and make corrections.
+  
 - Deleting duplicate rows using the power query editor.
+  
 - Identifying wrong data format and correcting them.
+  
 - The total number of employees was determined using the DAX countrow function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Total Emp = COUNTROWS('HR Analytics Data')
   </kbd>
+  
 - Created a service year field using a calculated column,  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Service Year = COMBINEVALUES(" ",'HR Analytics Data'[YearsAtCompany],"Years")
   </kbd>
+  
 - Grouped employees' distance status as close, very close or very far using the Nested IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  IF('HR Analytics Data'[DistanceFromHome]>19,"Very Far",IF('HR Analytics Data'[DistanceFromHome]>9,"Close","Very Close"))
   </kbd>
+  
 - Grouped employees' job satisfaction as high, low, or medium using the Nested IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Job Satisfaction Rating = if('HR Analytics Data'[JobSatisfaction]=3,"medium",if('HR Analytics Data'[JobSatisfaction]<3,"high","low"))
-  </kbd>  
+  </kbd>
+  
 - Employees' performance rating was grouped as high or low using the IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Performance Rating = if('HR Analytics Data'[PerformanceRating]=3,"high rated","low rated")
  </kbd>
+ 
 - I created a metric and a calculated column to identify employees to be retrenched using the DAX IF function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Retreanchment Status = if('HR Analytics Data'[YearsAtCompany]>17,"will be retreanched","on service")
-  </kbd>         
+  </kbd>
+          
 - I createed a metric and a calculated column to identify employees that are due for promotion using the DAX IF function <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Due For Promotion = if('HR Analytics Data'[YearsSinceLastPromotion]>9,"Due For Promotion","Not Due")
-  </kbd>    
+  </kbd>
+    
 - I calculated the Average montly income uding the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average Monthly Income = AVERAGE('HR Analytics Data'[MonthlyIncome])
-  </kbd>     
+  </kbd>
+    
 - I calculated the Average Service years using the DAX average function  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average service year = AVERAGE('HR Analytics Data'[YearsAtCompany])
   </kbd>     
