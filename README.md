@@ -40,7 +40,7 @@ This report comprises of 3 pages
 - Action page
 - Detail page
       
-You can interact with the report [here]
+You can interact with the report [here](https://drive.google.com/file/d/1GEA2VNVPF99Wq7Z6_XBVOwvqyWUCZNIf/view?usp=drivesdk)
 
 ## Home Page
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/home%20page.jpg)
