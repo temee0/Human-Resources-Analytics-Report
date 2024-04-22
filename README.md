@@ -177,6 +177,11 @@ Data was efficiently cleaned and transformed using power query and the DAX langu
 
 
 -----
+**NOTE:** 
+- There is a nice hover and press effect/style on the navigation butttons. intract [here](https://drive.google.com/file/d/1GEA2VNVPF99Wq7Z6_XBVOwvqyWUCZNIf/view?usp=drivesdk)
+- You have to press ctrl+click to use buttons.
+- Each buttons takes you to their respective pages.
+
 ![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/67d76f4b-2af3-48a1-956d-c20fb10967a6.jpeg)
 
 #### Thank you for taking the time to read through this report.
