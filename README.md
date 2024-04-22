@@ -166,6 +166,10 @@ Data was efficiently cleaned and transformed using power query and the DAX langu
 - I created a metric and a calculated column to identify employees that are due for promotion using the DAX IF function. <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Due For Promotion = if('HR Analytics Data'[YearsSinceLastPromotion]>9,"Due For Promotion","Not Due")
   </kbd>
+
+- I calculated the monthly cost savings as a result of retrenching 117 employees using the DAX calculate and sum functions. <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+Income for retrenched people = CALCULATE(sum('HR Analytics Data'[MonthlyIncome]), 'HR Analytics Data'[Retreanchment Status] = "will be retreanched")
+  </kbd>
     
 - I calculated the Average monthly income using the DAX average function.  <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
  Average Monthly Income = AVERAGE('HR Analytics Data'[MonthlyIncome])
