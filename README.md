@@ -52,7 +52,7 @@ You can interact with the report [here]
 - 85% of employees reside within close or very close proximity to the workplace.
 
 ## Action Page 
-![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/Action%20page.jpg)
+![](https://github.com/temee0/Human-Resources-Analytics-Report/blob/main/action_page.jpg)
 - The sum of monthly income of employees is $9,559,309.
 - The total count of married employees is 673.
 - The total count of single employees is 470.
@@ -108,9 +108,11 @@ You can interact with the report [here]
 ## Conclusion
 The total count of employees stands at 1470, comprising 882 male employees and 588 female employees. Among them, 46% are married, 32% are single, and 22% are divorced. These individuals are distributed across three departments: Research and Development, Sales, and Human Resources, encompassing a total of 11 job roles.
 
-The total monthly income disbursed to employees amounts to $9,559,309, with an average income of $6,503.
+The total monthly income disbursed to employees amounts to $9,559,309, with an average income of $6,503. After downsizing by 117 employees, the company will save $1,653,805 monthly.
 
-A total of 117 employees have been identified for retrenchment, while 72 are due for promotion. The longest-serving employee has dedicated 40 years to the company. The company"s average lenght of service years is 7 years.
+A total of 117 employees have been identified for retrenchment, while 72 are due for promotion. After downsizing by 117 employees, the company will save $1,653,805 monthly.
+
+The longest-serving employee has dedicated 40 years to the company. The company"s average lenght of service years is 7 years.
 
 Regarding proximity to the workplace, an impressive 85% reside within close or very close proximity to the workplace, accounting for 1241 individuals. Consequently, 229 employees live further away.  
 
